@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(expr $(grep -o ":/"  $PA |wc -l) + 1)
+echo $(expr $(grep -o ":/"  $PATH |wc -l) + 1)
